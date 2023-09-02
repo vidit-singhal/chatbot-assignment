@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.App{
+text-align: center;
+background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.react-chatbot-kit-chat-container {
+    width: 400px;
+}
+.react-chatbot-kit-chat-bot-message {
+    background-color: #1b5037;
+    margin-left: 0;
+}
+.react-chatbot-kit-chat-bot-message-arrow {
+    border-right: 8px solid #1b5037;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.react-chatbot-kit-chat-btn-send{
+    background-color: #1b5037;
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.react-chatbot-kit-chat-bot-avatar-container{
+    background-color: #61997f;
+    
 }
+.react-chatbot-kit-chat-bot-avatar-letter{
+    color: white;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.react-chatbot-kit-user-avatar-container{
+    background-color: #1b5037;
 
-.App-link {
-  color: #61dafb;
 }
+.react-chatbot-kit-user-chat-message{
+    background-color: #61997f;
+    color: white;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.react-chatbot-kit-user-chat-message-arrow{
+    border-left: 8px solid #61997f;
+}
+.gotit-btn{
+    background-color: rgb(255, 255, 255);
+    padding: 0.1rem 0.3rem;
+    /* margin-left: 3.5rem; */
+    cursor: pointer;
+    width: 100px;
+    border: 0.5px solid grey;
+    border-radius: 999px;
+}
+.age-select{
+    background-color: rgb(255, 255, 255);
+    padding: 0.1rem 0.3rem;
+    /* margin-left: 3.5rem; */
+    cursor: pointer;
+    width: 50px;
+    border: 0.5px solid grey;
+    border-radius: 50px 0 0 50px;
+}
+.Submit{
+    background-color: rgb(255, 255, 255);
+    padding: 0.1rem 0.3rem;
+    /* margin-left: 3.5rem; */
+    cursor: pointer;
+    width: 70px;
+    border: 0.5px solid grey;
+    border-radius: 0 50px 50px 0;
 }
